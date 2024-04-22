@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FF2D00;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-image {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 100px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-color: beige;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    color: #666;
+    margin-top: 30px;
+}
+
+/* Estilos para la sección de galería */
+.gallery {
+    background-color: beige;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery h2 {
+    text-align: justify;
+    color: #333;
+    margin-bottom: 0px;
+}
+
+/* Estilos para cada imagen en la galería */
+.image {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.image img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Efecto de transición al pasar el cursor sobre las imágenes */
+.image img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos adicionales para las imágenes en dispositivos pequeños */
+@media (max-width: 600px) {
+    .image img {
+        max-width: 100%;
+    }
+}
+
+#centro {
+    text-align: center;
+    text-decoration: black;
+}
